@@ -1,0 +1,227 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú del Restaurante</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: url('C:/Users/USER/Desktop/Personal/emprendimiento pw/JEJEJEJEJ.png') no-repeat center center fixed;
+            background-size: cover;
+            color: #ffffff;
+            background-attachment: scroll; /* Permite que la imagen de fondo se desplace con el contenido */
+        }
+        .bg-dark {
+            background-color: rgba(26, 26, 26, 0.8);
+        }
+        .text-red {
+            color: #ff0000;
+        }
+        .text-yellow {
+            color: #ffcc00;
+        }
+        .text-green {
+            color: #00ff00;
+        }
+        .text-gray {
+            color: #999999;
+        }
+        .btn-red {
+            background-color: #ff0000;
+            color: #ffffff;
+        }
+        .btn-gray {
+            background-color: #333333;
+            color: #ffffff;
+        }
+        .hero-section {
+            position: relative;
+            height: 100vh; /* Aumentar la altura de la sección principal */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: left;
+        }
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 4xl;
+            margin: auto;
+            padding: 4;
+        }
+        header {
+            position: relative;
+            z-index: 2;
+        }
+        .btn-instagram {
+            background-color: #E1306C;
+            color: #ffffff;
+            padding: 0.5rem 1rem;
+            border-radius: 0.375rem;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
+        .btn-instagram i {
+            margin-right: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="flex justify-between items-center p-4 bg-dark">
+        <div class="flex items-center space-x-4">
+            <img src="C:/Users/USER/Desktop/Personal/emprendimiento pw/logooo.png" alt="Logo" class="w-16 h-16"> <!-- Aumentar el tamaño del logo -->
+            <nav class="flex space-x-4">
+                <a href="#" class="text-white">Inicio</a>
+                <a href="#menu" class="text-white">Menu</a> <!-- Enlace al menú -->
+                <a href="#" class="text-white">¿Donde nos encontramos?</a>
+            </nav>
+        </div>
+        <div class="flex items-center space-x-4">
+            <a href="https://www.instagram.com/bbqpowerr/?utm_source=ig_web_button_share_sheet" class="btn-instagram">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+        </div>
+    </header>
+    <main>
+        <section class="hero-section">
+            <div class="hero-content max-w-4xl mx-auto px-4">
+                <h1 class="text-5xl font-bold">El rincón del sabor auténtico</h1>
+                <p class="text-gray mt-4">Ofrecemos sabores auténticos y calidad en cada plato para brindar una experiencia única.</p>
+                <div class="mt-6">
+                    <a href="file:///C:/Users/USER/Desktop/Personal/emprendimiento%20pw/funcionapliss.html" class="btn-red px-6 py-2 rounded-full">Lanzamiento</a>
+                    <button class="btn-gray px-6 py-2 rounded-full ml-4">¿Quienes somos?</button>
+                </div>
+            </div>
+        </section>
+<section class="bg-dark py-12">
+  
+    <div class="flex justify-center mt-5 relative z-0">
+        <video src="C:\Users\USER\Desktop\Personal\emprendimiento pw\videomenu.mp4" 
+               controls autoplay loop muted 
+               class="w-full max-w-4x2 rounded-lg">
+            Tu navegador no soporta el elemento de video.
+        </video>
+    </div>
+</section>
+
+        <section id="menu" class="bg-dark py-12">
+            <h2 class="text-4xl font-bold text-center">MENU</h2>
+            <div class="flex justify-center mt-6 space-x-4">
+    <button class="btn-gray px-4 py-2 rounded-full">Platos principales</button>
+   <a href="plato principall.html" class="btn-red px-4 py-2 rounded-full">Bebidas</a>
+    <a href="salsa.html" class="btn-gray px-4 py-2 rounded-full">Salsas</a>
+
+
+<a href="postres.html" class="btn-gray px-4 py-2 rounded-full">Postres</a>
+    <button class="btn-gray px-4 py-2 rounded-full">Combos</button>
+</div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8 px-4">
+                <!-- Repetir este bloque para cada elemento de la hamburguesa -->
+                <div class="bg-dark p-4 rounded-lg">
+                   
+                    <div class="mt-4">
+                        <h3 class="text-2xl font-bold mt-2">Disfruta de los mejores platos.</h3>
+                        <div class="flex items-center mt-4 space-x-2">
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-dark p-4 rounded-lg">
+                    <img src="C:/Users/USER/Desktop/Personal/emprendimiento pw/2e1480ab036cce7bf4ee248c7102dc76.jpg" alt="Rollitos Yesiyesi" class="w-full h-32 object-cover rounded-lg">
+                    <div class="mt-4">
+                        <h3 class="text-2xl font-bold mt-2">Rollitos de platano.</h3>
+                        <div class="flex items-center mt-4 space-x-2">
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-dark p-4 rounded-lg">
+                    <img src="C:/Users/USER/Desktop/Personal/emprendimiento pw/08ed1dbd2ce30eed89e49c0dc69f0c40.jpg" alt="Alitas ASP.NET" class="w-full h-32 object-cover rounded-lg">
+                    <div class="mt-4">
+                        <h3 class="text-2xl font-bold mt-2">Alitas de pollo.</h3>
+                        <div class="flex items-center mt-4 space-x-2">
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-dark p-4 rounded-lg">
+                    <img src="C:/Users/USER/Desktop/Personal/emprendimiento pw/60b4d70a-1637-4ff7-8b78-a4930f54144f.jpg" alt="SalchiJava" class="w-full h-32 object-cover rounded-lg">
+                    <div class="mt-4">
+                        <h3 class="text-2xl font-bold mt-2">Sandwich de pierna.</h3>
+                        <div class="flex items-center mt-4 space-x-2">
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-dark p-4 rounded-lg">
+                    <img src="C:/Users/USER/Desktop/Personal/emprendimiento pw/3768c628c70d29729bf4d9ef58b53bbd.jpg" alt="Brochetas Chatgpt" class="w-full h-32 object-cover rounded-lg">
+                    <div class="mt-4">
+                        <h3 class="text-2xl font-bold mt-2">Brochetas.</h3>
+                        <div class="flex items-center mt-4 space-x-2">
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-dark p-4 rounded-lg">
+                    <img src="C:/Users/USER/Desktop/Personal/emprendimiento pw/60552e95bd29428e1935c81bf91ba313.jpg" alt="Hot dog PHP" class="w-full h-32 object-cover rounded-lg">
+                    <div class="mt-4">
+                        <h3 class="text-2xl font-bold mt-2">Nuggest de pollo.</h3>
+                        <div class="flex items-center mt-4 space-x-2">
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-dark p-4 rounded-lg">
+                    <img src="C:/Users/USER/Desktop/Personal/emprendimiento pw/cb16ec70-f7b5-4304-a9b8-aea85945cc83.jpg" alt="Mini pizzas SQL" class="w-full h-32 object-cover rounded-lg">
+                    <div class="mt-4">
+                        <h3 class="text-2xl font-bold mt-2">Burrito. SQL</h3>
+                        <div class="flex items-center mt-4 space-x-2">
+                        </div>
+                    </div>
+                </div>
+                <!-- Repetir fin -->
+                <!-- Agregar más elementos de hamburguesa según sea necesario -->
+            </div>
+            <div class="text-center mt-8">
+                <a href="pagina web.html" class="btn-gray px-6 py-2 rounded-full">Volver al inicio</button>
+
+            </div>
+        </section>
+        <section class="bg-dark py-12">
+            <div class="text-center">
+                <h2 class="text-4xl font-bold">Spróbuj naszych</h2>
+                <h3 class="text-5xl font-bold text-red mt-2">Wypasionych sałatek</h3>
+                <div class="flex justify-center mt-6 space-x-4">
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-drumstick-bite text-red text-2xl"></i>
+                        <span class="text-white">180g mięsa</span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-leaf text-red text-2xl"></i>
+                        <span class="text-white">Świeże składniki</span>
+                    </div>
+                </div>
+                           </div>
+        </section>
+<section class="bg-dark py-12">
+  
+    <div class="flex justify-center mt-6 relative z-0">
+        <video src="C:/Users/USER/Desktop/Personal/emprendimiento pw/video para pagina.mp4" 
+               controls autoplay loop muted 
+               class="w-full max-w-4x2 rounded-lg">
+            Tu navegador no soporta el elemento de video.
+        </video>
+    </div>
+</section>
+    </main>
+</body>
+</h

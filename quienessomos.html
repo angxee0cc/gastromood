@@ -1,0 +1,169 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú del Restaurante</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: url('C:/Users/USER/Desktop/Personal/emprendimiento pw/JEJEJEJEJ.png') no-repeat center center fixed;
+            background-size: cover;
+            color: #ffffff;
+            background-attachment: scroll; /* Permite que la imagen de fondo se desplace con el contenido */
+        }
+        .bg-dark {
+            background-color: rgba(26, 26, 26, 0.8);
+        }
+        .text-red {
+            color: #ff0000;
+        }
+        .text-yellow {
+            color: #ffcc00;
+        }
+        .text-green {
+            color: #00ff00;
+        }
+        .text-gray {
+            color: #999999;
+        }
+        .btn-red {
+            background-color: #ff0000;
+            color: #ffffff;
+        }
+        .btn-gray {
+            background-color: #333333;
+            color: #ffffff;
+        }
+        .hero-section {
+            position: relative;
+            height: 100vh; /* Aumentar la altura de la sección principal */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: left;
+        }
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 4xl;
+            margin: auto;
+            padding: 4;
+        }
+        header {
+            position: relative;
+            z-index: 2;
+        }
+        .btn-instagram {
+            background-color: #E1306C;
+            color: #ffffff;
+            padding: 0.5rem 1rem;
+            border-radius: 0.375rem;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
+        .btn-instagram i {
+            margin-right: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="flex justify-between items-center p-4 bg-dark">
+        <div class="flex items-center space-x-4">
+            <img src="C:/Users/USER/Desktop/Personal/emprendimiento pw/logooo.png" alt="Logo" class="w-16 h-16"> <!-- Aumentar el tamaño del logo -->
+           <nav class="flex space-x-4">
+    <a href="pagina web.html" class="text-white">Inicio</a>
+    <a href="#menu" class="text-white">Menu</a> <!-- Enlace al menú -->
+              </div>
+        <div class="flex items-center space-x-4">
+            <a href="https://www.instagram.com/gastromood_6d/?utm_source=ig_web_button_share_sheet" class="btn-instagram">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+        </div>
+    </header>
+    <main>
+<section class="bg-dark py-12">
+    <div class="flex justify-center items-center space-x-8 px-4">
+        <div class="w-full md:w-1/2">
+            <img src="C:/Users/USER/Desktop/Personal/emprendimiento pw/sextod.jpeg" alt="Imagen Sexto D" class="w-full h-auto rounded-lg">
+        </div>
+        <div class="w-full md:w-1/2 text-white">
+            <h2 class="text-4xl font-bold mb-4">¡Somos Sexto D!</h2>
+            <p class="text-lg">En nuestro emprendimiento, un equipo de estudiantes apasionados de 6to, nos hemos unido con el objetivo de llevarte una experiencia gastronómica única y deliciosa. Ofrecemos una variedad de platos frescos y sabrosos, desde nuestros jugosos burritos y alitas picantes hasta las crujientes papas fritas y nuggets de pollo. Nos inspiramos en la calidad, el sabor y el servicio para que disfrutes de cada bocado.</p>
+            <p class="text-lg mt-4"Somos un grupo de estudiantes de 6to con un solo objetivo: ¡hacer que disfrutes cada bocado! Nos encanta preparar burritos, alitas, papas fritas y nuggets llenos de sabor. Todo lo que hacemos lo hacemos con estilo, frescura y mucha energía, para que cada vez que nos elijas, ¡tu comida sea toda una experiencia!</p>
+        </div>
+    </div>
+</section>
+<section class="bg-black py-12">
+    <div class="text-center text-white">
+        <h2 class="text-4xl font-bold mb-6">Nuestra Misión, Visión y Valores</h2>
+        <div class="grid md:grid-cols-3 gap-12 px-4">
+            <!-- Misión -->
+            <div class="bg-black p-6 rounded-lg shadow-lg border-2 border-red-500">
+                <h3 class="text-2xl font-semibold mb-4 text-red-500">Misión</h3>
+                <p class="text-lg">Nuestra misión es ofrecer una experiencia gastronómica excepcional, brindando a nuestros clientes platos frescos, sabrosos y de calidad, siempre con un enfoque en el servicio y la satisfacción. Queremos que cada comida que ofrezcamos sea una celebración del sabor y la creatividad.</p>
+            </div>
+            <!-- Visión -->
+            <div class="bg-black p-6 rounded-lg shadow-lg border-2 border-red-500">
+                <h3 class="text-2xl font-semibold mb-4 text-red-500">Visión</h3>
+                <p class="text-lg">Aspiramos a ser un referente en el sector gastronómico, reconocido por nuestra calidad, innovación y el excelente servicio al cliente. Nuestro objetivo es expandirnos y llegar a más personas, llevando nuestra pasión por la comida a todos los rincones.</p>
+            </div>
+            <!-- Valores -->
+            <div class="bg-black p-6 rounded-lg shadow-lg border-2 border-red-500">
+                <h3 class="text-2xl font-semibold mb-4 text-red-500">Valores</h3>
+                <ul class="text-lg list-disc list-inside">
+                    <li>Compromiso con la calidad</li>
+                    <li>Innovación constante</li>
+                    <li>Respeto y trabajo en equipo</li>
+                    <li>Servicio excepcional al cliente</li>
+                    <li>Pasión por la gastronomía</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        <section class="bg-dark py-12">
+  
+    <div class="flex justify-center mt-5 relative z-0">
+        <video src="C:\Users\USER\Desktop\Personal\emprendimiento pw\videomenu.mp4" 
+               controls autoplay loop muted 
+               class="w-full max-w-4x2 rounded-lg">
+            Tu navegador no soporta el elemento de video.
+        </video>
+    </div>
+</section>
+        <section class="bg-dark py-12">
+            <div class="text-center">
+                <h2 class="text-4xl font-bold">ESTAMOS UBICADOS EN:</h2>
+                <h3 class="text-5xl font-bold text-red mt-2">Salon multiuso</h3>
+                <div class="flex justify-center mt-6 space-x-4">
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-drumstick-bite text-red text-2xl"></i>
+                        <span class="text-white">Reserva tu mesa.</span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-leaf text-red text-2xl"></i>
+                        <span class="text-white">Tenemos lo mejor para ti.</span>
+                    </div>
+                </div>
+                           </div>
+        </section>
+
+    </main>
+</body>
+</html>
